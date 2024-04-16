@@ -63,7 +63,6 @@ learning](https://www.science.org/doi/10.1126/science.add4679)[[1]](#1) serves a
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
 
 ### Installation
 
@@ -124,11 +123,11 @@ Project Link: [https://github.com/TristanBandat/cdir](https://github.com/Tristan
 
 ## References
 <a id="1">[1]</a> 
-Julien Perolat et al. ,Mastering the game of Stratego with model-free multiagent reinforcement 
-learning.Science378,990-996(2022).DOI: [10.1126/science.add4679](https://www.science.org/doi/10.1126/science.add4679)
+Julien Perolat et al. ,Mastering the game of Stratego with model-free multiagent reinforcement learning.<br>
+Science378,990-996(2022).DOI: [10.1126/science.add4679](https://www.science.org/doi/10.1126/science.add4679)
 
 <a id="2">[2]</a>
-Reconnaissance Blind Chess (RBC) by The Johns Hopkins University Applied Physics Laboratory LLC.
+Reconnaissance Blind Chess (RBC) by The Johns Hopkins University Applied Physics Laboratory LLC.<br>
 More information: [https://rbc.jhuapl.edu/](https://rbc.jhuapl.edu/)
 
 
