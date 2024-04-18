@@ -12,6 +12,35 @@ import cProfile
 from reconchess import *
 
 
+def play_game(player_1: str, player_2: str, time: int) -> str:
+    white_bot_name, white_player_cls = load_player(player_1)
+    black_bot_name, black_player_cls = load_player(player_2)
+
+    game = LocalGame(time)
+
+    try:
+        winner_color, win_reason, history = play_local_game(white_player_cls(), black_player_cls(), game=game)
+        winner = 'Draw' if winner_color is None else chess.COLOR_NAMES[winner_color]
+    except:
+        traceback.print_exc()
+        game.end()
+        winner = 'ERROR'
+        history = game.get_game_history()
+
+    print('Game Over!')
+    print('Winner: {}!'.format(winner))
+    try:
+        print('Win reason: {}'.format(win_reason))
+    except TypeError:
+        raise TypeError("Win reason can't be printed")
+
+    # timestamp = datetime.datetime.now().strftime('%Y_%m_%d-%H_%M_%S')
+    # replay_path = '{}-{}-{}-{}.json'.format(white_bot_name, black_bot_name, winner, timestamp)
+    # print('Saving replay to {}...'.format(replay_path))
+    # history.save(replay_path)
+    return winner
+
+
 def main() -> None:
     # TODO: add model name here
     player_1 = ''
