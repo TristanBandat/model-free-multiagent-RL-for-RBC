@@ -106,7 +106,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Tristan Bandat - [@TBandat](https://twitter.com/TBandat) - tristan.bandat@gmail.com
 
-Project Link: [https://github.com/TristanBandat/cdir](https://github.com/TristanBandat/model-free-multiagent-RL-for-RBC)
+Project Link: [https://github.com/TristanBandat/model-free-multiagent-RL-for-RBC](https://github.com/TristanBandat/model-free-multiagent-RL-for-RBC)
 
 
 
